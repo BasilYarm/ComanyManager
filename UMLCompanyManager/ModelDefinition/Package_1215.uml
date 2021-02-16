@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm4="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm5="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/LogicalClassDesigner"
+  dslVersion="1.0.0.0"
+  Id="a05f7d3a-0043-4dd9-9cdd-e42a16e50d1e"
+  name="CompanyManager" xmlns="http://schemas.microsoft.com/dsltools/ModelStore">
+  <packagedElements>
+    <packageHasNamedElement>
+      <class
+        Id="a01514c1-13ed-4d79-90cf-d9847f310d6d"
+        name="Program"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <suppliersInternal>
+          <dependency
+            Id="d51f0949-dbca-4be3-8cb9-6267b07f8189">
+            <classMoniker
+              Id="07ca7ed9-c95a-415e-946b-e220435b65a9"
+              LastKnownName="CreateEmployee"
+              LastKnownLocation="Package_1220.uml" />
+          </dependency>
+        </suppliersInternal>
+        <ownedOperationsInternal>
+          <operation
+            Id="1ea5be1f-9783-48d5-9660-c345c145dba4"
+            name="Main"
+            visibility="Private"
+            isLeaf="false"
+            isStatic="true"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false" />
+        </ownedOperationsInternal>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <packageMoniker
+        Id="0cfa6b08-afdd-4028-b9f2-aca3cd9c3514"
+        LastKnownName="Employees"
+        LastKnownLocation="Package_1217.uml" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <packageMoniker
+        Id="a253794a-99d9-4fd6-982e-3abff1c77cee"
+        LastKnownName="MyCompany"
+        LastKnownLocation="Package_1220.uml" />
+    </packageHasNamedElement>
+  </packagedElements>
+</package>
